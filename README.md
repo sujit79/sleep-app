@@ -1,12 +1,14 @@
 # sleep-app
 Sleep App, To run the app checkout github sleep-app project at https://github.com/sujit79/sleep-app.git
-got to the sleep-app folder and run "rails s"
+goto the sleep-app folder and 
+	1. rake db:migrate RAILS_ENV=development
+	2. run "rails s"
 
 # Design Decision
 Use Scaffolding provided to generate the skeleton design and code, modify the Controller to return the
 specified last week records sorted as descending to the time it was recored.
 
-#How to use the app
+# How to use the app
 On Browser go to 
 	http://localhost:3000/users#create to create users
 	http://localhost:3000/users#list to list users who have recorded last week as descending
