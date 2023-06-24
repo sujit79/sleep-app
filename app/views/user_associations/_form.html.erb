@@ -1,0 +1,27 @@
+<%= form_with(model: user_association) do |form| %>
+  <% if user_association.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(user_association.errors.count, "error") %> prohibited this user_association from being saved:</h2>
+
+      <ul>
+        <% user_association.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :user_to, style: "display: block" %>
+    <%= form.number_field :user_to %>
+  </div>
+
+  <div>
+    <%= form.label :user_id, style: "display: block" %>
+    <%= form.text_field :user_id %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

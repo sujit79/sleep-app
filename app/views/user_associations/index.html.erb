@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>User associations</h1>
+
+<div id="user_associations">
+  <% @user_associations.each do |user_association| %>
+    <%= render user_association %>
+    <p>
+      <%= link_to "Show this user association", user_association %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New user association", new_user_association_path %>

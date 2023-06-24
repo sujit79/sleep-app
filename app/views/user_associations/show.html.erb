@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @user_association %>
+
+<div>
+  <%= link_to "Edit this user association", edit_user_association_path(@user_association) %> |
+  <%= link_to "Back to user associations", user_associations_path %>
+
+  <%= button_to "Destroy this user association", @user_association, method: :delete %>
+</div>
