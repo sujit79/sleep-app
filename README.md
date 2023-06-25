@@ -1,8 +1,9 @@
 # sleep-app
 Sleep App, To run the app checkout github sleep-app project at https://github.com/sujit79/sleep-app.git
 goto the sleep-app folder and 
-	1. rake db:migrate RAILS_ENV=development
-	2. run "rails s"
+	1. bundle install 
+	2. rake db:migrate RAILS_ENV=development
+	3. run "rails s"
 
 # Design Decision
 Use Scaffolding provided to generate the skeleton design and code, modify the Controller to return the
