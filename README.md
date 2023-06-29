@@ -1,6 +1,6 @@
 # sleep-app
 Sleep App, To run the app checkout github sleep-app project at https://github.com/sujit79/sleep-app.git
-goto the sleep-app folder and 
+goto the sleep-app folder and <br />
 	1. bundle install <br />
 	2. rake db:migrate RAILS_ENV=development <br />
 	3. rails s <br />
@@ -19,9 +19,9 @@ On Browser go to <br />
 
 # REST(GET) Interface for the user app <br />
 
-	localhost:3000/users.json to list  <br />
-	localhost:3000/users/1.json to get a particular user <br />
-	localhost:3000/user_associations.json to get user associations <br />
-	localhost:3000/user_sleeps.json to list users last week in descending <br />
+	localhost:3000/users.json to list
+	localhost:3000/users/1.json to get a particular user
+	localhost:3000/user_associations.json to get user associations
+	localhost:3000/user_sleeps.json to list users last week in descending
 
 
