@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_24_102832) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_29_050520) do
   create_table "user_associations", force: :cascade do |t|
     t.integer "user_to"
     t.integer "user_id", null: false
@@ -20,8 +20,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_24_102832) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.integer "user_id"
-    t.string "name"
+    t.string "user_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
