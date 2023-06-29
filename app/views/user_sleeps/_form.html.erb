@@ -1,0 +1,22 @@
+<%= form_with(model: user_sleep) do |form| %>
+  <% if user_sleep.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(user_sleep.errors.count, "error") %> prohibited this user_sleep from being saved:</h2>
+
+      <ul>
+        <% user_sleep.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :user_id, style: "display: block" %>
+    <%= form.text_field :user_id %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

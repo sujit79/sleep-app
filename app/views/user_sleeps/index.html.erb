@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>User sleeps</h1>
+
+<div id="user_sleeps">
+  <% @user_sleeps.each do |user_sleep| %>
+    <%= render user_sleep %>
+    <p>
+      <%= link_to "Show this user sleep", user_sleep %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New user sleep", new_user_sleep_path %>

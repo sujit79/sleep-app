@@ -10,13 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_29_053926) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_29_080647) do
   create_table "user_associations", force: :cascade do |t|
     t.integer "user_to"
     t.integer "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_user_associations_on_user_id"
+  end
+
+  create_table "user_sleeps", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_user_sleeps_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -26,4 +33,5 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_29_053926) do
   end
 
   add_foreign_key "user_associations", "users"
+  add_foreign_key "user_sleeps", "users"
 end

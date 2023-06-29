@@ -3,10 +3,7 @@ class UsersController < ApplicationController
 
   # GET /users or /users.json
   def index
-    @today = Date.today
-    @start_of_last_week = @today.beginning_of_week - 7
-    @end_of_last_week = @today.end_of_week - 6
-    @users = User.where("created_at BETWEEN ? AND ?", @start_of_last_week, @end_of_last_week).order(created_at: :desc)
+    @users = User.all
   end
 
   # GET /users/1 or /users/1.json
