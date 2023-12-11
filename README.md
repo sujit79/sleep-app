@@ -11,7 +11,7 @@ Use Scaffolding provided to generate the skeleton design and code, modify the Co
 specified last week records sorted as descending to the time it was recored.
 
 # How to use the app
-On Browser go to <br />
+On Browser go to 
 
 	http://localhost:3000/users#create to create users <br />
 	http://localhost:3000/users#list to list users <br />
