@@ -24,8 +24,7 @@ On Browser go to <br />
 	localhost:3000/user_associations.json to get user associations
 	localhost:3000/user_sleeps.json to list users last week in descending
 
- # Rails Commands used to generate the project are below, Sleep App can also be 
- # furthur enhanced in terms of front end/backend and database on similar lines
+ # Rails Commands used to generate the project are below, 
 
  rails new sleep-app <br />
  rails d scaffold User <br />
@@ -34,6 +33,11 @@ On Browser go to <br />
  rails g scaffold UserAssociation associated_user_id:integer user:references <br />
  rails g scaffold UserSleep user_id:integer user:references <br />
 
+ # Improvements
+
+ The App can be furthur be enhanced to follow semantics, structuring and type definition in terms of object to 
+ understand business requirements where in the model/views and database should be enhanced.
+ 
  # Suggestions 
 
  Findout ways to integrate Ruby code with other Gems which are non standard using scaffolding. Suggested approach
