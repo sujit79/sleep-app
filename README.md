@@ -12,6 +12,7 @@ specified last week records sorted as descending to the time it was recored.
 
 # How to use the app
 On Browser go to <br />
+
 	http://localhost:3000/users#create to create users <br />
 	http://localhost:3000/users#list to list users <br />
 	http://localhost:3000/user_associations#create to create user associations <br />
@@ -53,5 +54,5 @@ On Browser go to <br />
  # UI Interfaces
 
 It is possible to use IFrames or the HTML or JSON output from backend, Highly compatible for usage with modern
-Frameworks like Angular/React or anyother including Mobile (Flutter for exampe), because of static nature in the
+Frameworks like Angular/React or any other including Mobile (Flutter for exampe), because of static nature in the
 outputs. Any user feedback is welcome.
