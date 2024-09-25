@@ -30,6 +30,9 @@ gem "jbuilder"
 # Workaround for https://discuss.rubyonrails.org/t/cant-setup-rails-psych-yaml-issue/83968/8
 gem "psych", "4.0.0"
 
+# For rexml based security findings
+gem "rexml", "3.3.6"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 

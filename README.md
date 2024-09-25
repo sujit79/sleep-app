@@ -1,6 +1,6 @@
 # Sleep App
 Sleep App, To run the app checkout github sleep-app project at https://github.com/sujit79/sleep-app.git
-goto the sleep-app folder and Ruby Version >= 3.3.5 for Upgrade needed for Dependabot Findings.4
+goto the sleep-app folder and Ruby Version >= 3.3.5 for Upgrade needed for Dependabot Findings.
 
 A minor finding first time if the application has the project open, it might need to closed and below steps.
 
