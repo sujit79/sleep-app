@@ -59,14 +59,11 @@ It is possible to use IFrames or the HTML or JSON output from backend, Highly co
 Frameworks like Angular/React or any other including Mobile (Flutter for exampe), because of static nature in the
 outputs. Any user feedback is welcome.
 
-# Warning
-
-The Below warning will go away when the project is upgraded to rails 8.0
-'''
-DEPRECATION WARNING: ActiveSupport::ProxyObject is deprecated and will be removed in Rails 8.0.
-Use Ruby's built-in BasicObject instead.
- (called from <main> at C:/project/sentiment/sleep-app/config/application.rb:7)
-DEPRECATION WARNING: ActiveSupport::ProxyObject is deprecated and will be removed in Rails 8.0.
-Use Ruby's built-in BasicObject instead.
- (called from <main> at C:/project/sentiment/sleep-app/config/application.rb:7)
- '''
+> [!WARNING]  
+>The Below warning will go away when the project is upgraded to rails 8.0
+>DEPRECATION WARNING: ActiveSupport::ProxyObject is deprecated and will be removed in Rails 8.0.
+>Use Ruby's built-in BasicObject instead.
+> (called from <main> at C:/project/sentiment/sleep-app/config/application.rb:7)
+>DEPRECATION WARNING: ActiveSupport::ProxyObject is deprecated and will be removed in Rails 8.0.
+>Use Ruby's built-in BasicObject instead.
+>(called from <main> at C:/project/sentiment/sleep-app/config/application.rb:7)
