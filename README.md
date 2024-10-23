@@ -60,7 +60,7 @@ Frameworks like Angular/React or any other including Mobile (Flutter for exampe)
 outputs. Any user feedback is welcome.
 
 > [!WARNING]  
->The Below warning will go away when the project is upgraded to rails 8.0
+>The Below warning will go away when the project is upgraded to rails 8.0 <br/>
 >DEPRECATION WARNING: ActiveSupport::ProxyObject is deprecated and will be removed in Rails 8.0.
 >Use Ruby's built-in BasicObject instead.
 > (called from <main> at C:/project/sentiment/sleep-app/config/application.rb:7)
