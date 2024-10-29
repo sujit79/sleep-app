@@ -31,7 +31,7 @@ gem "jbuilder"
 gem "psych", "4.0.0"
 
 # For rexml based security findings
-gem "rexml", "3.3.6"
+gem "rexml", "3.3.9"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
