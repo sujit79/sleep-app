@@ -63,7 +63,8 @@ It is possible to use IFrames or the HTML or JSON output from backend, Highly co
 Frameworks like Angular/React or any other including Mobile (Flutter for exampe), because of static nature in the
 outputs. Any user feedback is welcome.
 
-> [!WARNING] (Removed please refer https://stackoverflow.com/questions/79299775/rails-8-migration-failing-due-to-opaque-deprecation-description)  
+> [!WARNING]
+> (Removed please refer https://stackoverflow.com/questions/79299775/rails-8-migration-failing-due-to-opaque-deprecation-description)  
 >The Below warning will go away when the project is upgraded to rails 8.0 <br/>
 >DEPRECATION WARNING: ActiveSupport::ProxyObject is deprecated and will be removed in Rails 8.0.
 >Use Ruby's built-in BasicObject instead.
