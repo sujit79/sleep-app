@@ -3,9 +3,8 @@ Sleep App, To run the app checkout github sleep-app project at https://github.co
 goto the sleep-app folder and Ruby Version >= 3.3.6 for Upgrade needed for Dependabot Findings. Use snap
 to install ruby 3.3.6 on Linux. 
 
-'''
-The Project works on Windows / Linux and Unix (Tested on Mac OS X)
-'''
+> [!IMPORTANT]
+> The Project works on Windows / Linux and Mac OS X (Unix)
 
 A minor finding first time if the application has the project open, it might need to closed and below steps.
 
