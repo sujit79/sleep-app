@@ -12,7 +12,10 @@ A minor finding first time if the application has the project open, it might nee
 	1. bundle install 
 	2. rake db:migrate RAILS_ENV=development 
 	3. rails s 
-	
+The project build might contain the below error and continues, its probably because of running builds as root or admin users and can be ignored. <br/>
+	Installing puma 7.2.1 with native extensions <br/>
+	error: failed to init transaction (unable to lock database) <br/>
+	error: could not lock database: Permission denied <br/>	
 # Design Decision
 Use Scaffolding provided to generate the skeleton design and code, modify the Controller to return the
 specified last week records sorted as descending to the time it was recored.
