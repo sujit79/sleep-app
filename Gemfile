@@ -54,7 +54,8 @@ gem 'ostruct', '~> 0.1.0'
 gem 'rubyzip', '>= 3.4'
 # Use Sass to process CSS
 # gem "sassc-rails"
-
+# fiddle isn't default in ruby 4.0+, so we need to add it explicitly
+gem 'fiddle', '~> 1.0'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
@@ -77,6 +78,6 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
-  gem "selenium-webdriver"
+  gem 'selenium-webdriver', '>= 4.4'
   gem "webdrivers"
 end
