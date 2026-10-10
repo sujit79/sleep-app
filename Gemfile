@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "4.0.6"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.1.3"
+gem "rails", "~> 8.1.3.1"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -50,7 +50,8 @@ gem "bootsnap", require: false
 
 # osstruct isn't going to be a part of default gems from ruby 3.5
 gem 'ostruct', '~> 0.1.0'
-
+# rubyzip is required by webdrivers gem to unzip downloaded drivers
+gem 'rubyzip', '>= 3.4'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
